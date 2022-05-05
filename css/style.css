@@ -1,0 +1,488 @@
+html, body
+{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+a
+{
+  color: inherit;
+}
+
+@font-face {
+  font-family: "Parisienne-Regular";
+  src: url("fonts/Parisienne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "KleeOne";
+  src: url("fonts/KleeOne-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "AmaticSC";
+  src: url("fonts/AmaticSC-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Slabo";
+  src: url("fonts/Slabo27px-Regular.ttf");
+}
+
+html
+{
+  background-color: #f8ede5;
+}
+
+body
+{
+  font-size: 20px;
+  font-weight: 500;
+  color: #9dcad1;
+  letter-spacing: ;
+  line-height: 2em;
+  word-break: keep-all;
+  font-family: "Slabo";
+}
+
+.banniere
+{
+  background-color: #f8ede5;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banniere img
+{
+  border-radius: 50%;
+  height: 80%;
+}
+
+.box
+{
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.box:hover
+{
+  cursor: pointer;
+}
+
+.box span
+{
+  background-color: #9dcad1;
+  width: 100%;
+  height: 3px;
+  border-radius: 3px;
+}
+
+.menu
+{
+  height: 43px;
+  background-color: #f9909a;
+  position: sticky;
+  top: 0;
+  display: flex;
+  z-index: 3;
+  font-family: "AmaticSC";
+  font-weight: bold;
+  color: white;
+  transition: color 0.5s;
+}
+
+.menu ul
+{
+  display: flex;
+  margin: 0;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.menu a
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li
+{
+  list-style: none;
+  cursor: pointer;
+}
+
+.menu li
+{
+  transition: color 0.5s;
+  text-align: center;
+  position: relative;
+}
+
+.menu li:hover
+{
+  color: #9dcad1;
+  border-bottom: 2px solid white;
+}
+
+.menu a
+{
+  text-align: center;
+}
+
+.liste
+{
+  width: 60%;
+  margin: auto;
+}
+
+.liste li
+{
+  font-family: "AmaticSC";
+  font-weight: bold;
+}
+
+.liste h3, .liste h2, .liste h1
+{
+  font-family: "AmaticSC";
+}
+
+.liste a:hover, .liste h3:hover, .liste li:hover
+{
+  border-bottom: 1px solid #9dcad1;
+}
+
+.subnav h3, .subnav a
+{
+  cursor: pointer;
+}
+
+.subnav-content
+{
+  display: none;
+  flex-direction: column;
+}
+
+.subnav-content a
+{
+  margin-left: 20px;
+}
+
+.texte
+{
+  box-shadow: 1px 1px 12px #555;
+  padding: 20px;
+  text-align: left;
+  background-color: rgba(248, 237, 229, 0.5);
+  width: 60%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: auto;
+  color: #777;
+  line-height: 300%;
+}
+
+.texte h1
+{
+  text-align: center;
+  font-family: "AmaticSC";
+  color: #9dcad1;
+}
+
+ruby
+{
+  font-family: "KleeOne", 'Noto Sans JP', sans-serif;
+}
+
+rt
+{
+  font-size: 0.6em;
+  font-family: "Noto Sans JP";
+}
+
+rb
+{
+  color: #f3a3a7;
+  font-size: 1.3em;
+}
+
+ruby:hover
+{
+  cursor: pointer;
+  font-weight: bold;
+  color: #f3a3a7;
+}
+
+.container
+{
+  height: 90%;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: transparent;
+  display: none;
+}
+
+.info
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 10px;
+  background-color: rgba(249,144,154, 0.9);
+  width: 50%;
+  padding: 15px;
+  color: white;
+}
+
+.info h3
+{
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.furigana
+{
+  font-size: 15px;
+}
+
+.info h3
+{
+  margin-bottom: 0;
+}
+
+.info p
+{
+  margin: 0;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+a:visited
+{
+  color: inherit;
+}
+
+.menu span
+{
+  display: none;
+}
+
+.fermerMenu
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+#contact
+{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.choix
+{
+  display: flex;
+  height: 50%;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  font-family: "AmaticSC";
+  font-size: 1.5em;
+  color: white;
+}
+
+.choix ul
+{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.choix li
+{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  background-color: #f3a3a7;
+}
+
+.choix li:hover
+{
+  background-color: rgba(243,163,167, 0.5);;
+}
+
+.choix a
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.presentation
+{
+  width: 50%;
+  border-radius: 20px;
+  box-shadow: 1px 1px 12px black;
+  color: #777;
+  padding: 20px;
+}
+
+@media (max-width: 1000px) {
+
+  .menu
+  {
+    float: left;
+    width: 20%;
+    height: 80%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #f9909a;
+    display: flex;
+    align-items: center;
+  }
+
+  .menu ul
+  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+
+  .sousMenu
+  {
+    background-color: rgba(60, 40, 20, 0.5);
+  }
+
+  .sousMenu li:hover
+  {
+    background-color: #996633;
+  }
+
+  .menu li
+  {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .texte
+  {
+    margin: auto;
+    width: 90%;
+    top: 0%;
+  }
+
+  .info
+  {
+    width: 100%;
+  }
+
+  .menu
+  {
+    width: 50%;
+    height: 100%;
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: left 1s;
+  }
+
+  .menu span
+  {
+    position: absolute;
+    top: 0;
+    right: 5%;
+    display: block;
+    cursor: default;
+    background-color: rgba(153, 102, 51, 0.3);
+    padding: 0px 7px 0px 9px;
+    margin-top: 15px;
+  }
+
+  .box
+  {
+    position: fixed;
+    display: flex;
+  }
+
+  .banniere
+  {
+    height: 40%;
+  }
+
+  .choix
+  {
+    height: 60%;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .menu
+  {
+    width: 100%;
+  }
+
+  .banniere
+  {
+    height: 20%;
+  }
+
+  .choix
+  {
+    height: 80%;
+  }
+
+  .choix ul
+  {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+
+  .presentation
+  {
+    width: 100%;
+    border-radius: 0px;
+    box-shadow: none;
+  }
+
+}
