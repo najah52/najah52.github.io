@@ -161,7 +161,7 @@ var vocabulaire = [
     mot : "何度",
     transcription : "何度",
     furigana : "なんど",
-    traduction : "nombre de fois"
+    traduction : "combien de fois"
   },
   {
     mot : "立",
