@@ -923,7 +923,7 @@ var vocabulaire = [
   },
 {
     mot : "転",
-    transcription : 転げる
+    transcription : "転げる",
     furigana : "ころげる",
     traduction : "se rouler, se retourner"
   },
