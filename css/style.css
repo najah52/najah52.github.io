@@ -101,6 +101,40 @@ body
   transition: color 0.5s;
 }
 
+footer
+{
+  background-color: #f9909a;
+  color: white;
+  text-align: center;
+  font-family: "AmaticSC";
+}
+
+footer a:hover
+{
+  font-weight: bold;
+}
+
+.plan
+{
+  width: 80%;
+  margin: auto;
+}
+
+.plan  a:hover
+{
+  text-decoration: underline;
+}
+
+.plan ul
+{
+  font-weight: bold;
+}
+
+.plan li
+{
+  font-weight: normal;
+}
+
 .menu ul
 {
   display: flex;
