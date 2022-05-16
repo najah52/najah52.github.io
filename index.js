@@ -992,6 +992,210 @@ var vocabulaire = [
     transcription : "二度",
     furigana : "にど",
     traduction : "deux fois"
+  },
+  {
+    mot : "悲",
+    transcription : "悲しみ",
+    furigana : "かなしみ",
+    traduction : "tristesse"
+  },
+{
+    mot : "囚",
+    transcription : "囚われる",
+    furigana : "とらわれる",
+    traduction : "être attrapé, capturé, fait prisonnier; être saisi, dominé (par un sentiment"
+  },
+{
+    mot : "俯",
+    transcription : "俯く",
+    furigana : "うつむく",
+    traduction : "baisser la tête, baisser les yeux (de honte)"
+  },
+{
+    mot : "涙",
+    transcription : "涙",
+    furigana : "なみだ",
+    traduction : "larmes"
+  },
+{
+    mot : "場所",
+    transcription : "場所",
+    furigana : "ばしょ",
+    traduction : "lieu, endroit"
+  },
+{
+    mot : "落",
+    transcription : "落とす",
+    furigana : "おとす",
+    traduction : "faire tomber"
+  },
+{
+    mot : "行",
+    transcription : "行く",
+    furigana : "いく",
+    traduction : "aller, se diriger vers"
+  },
+{
+    mot : "行",
+    transcription : "行く",
+    furigana : "ゆく",
+    traduction : "aller, se rendre, fréquenter"
+  },
+{
+    mot : "振",
+    transcription : "振りほどく",
+    furigana : "ふりほどく",
+    traduction : "secouer, démêler"
+  },
+{
+    mot : "走",
+    transcription : "走り出す",
+    furigana : "はしりだす",
+    traduction : "commencer à courir"
+  },
+{
+    mot : "叶",
+    transcription : "叶う",
+    furigana : "かなう",
+    traduction : "être adapté, être approprié, être fait pour quelque chose; réaliser, atteindre, devenir réalité; rivaliser"
+  },
+{
+    mot : "叩",
+    transcription : "叩く",
+    furigana : "たたく",
+    traduction : "frapper, battre; jouer du tambour; insulter, abuser"
+  },
+{
+    mot : "叩",
+    transcription : "叩き潰す",
+    furigana : "たたきつぶす",
+    traduction : "vaincre de manière écrasante"
+  },
+{
+    mot : "潰",
+    transcription : "潰す",
+    furigana : "つぶす",
+    traduction : "écraser; bloquer; gâcher; tuer (temps)"
+  },
+{
+    mot : "昨日",
+    transcription : "昨日",
+    furigana : "きのう",
+    traduction : "hier"
+  },
+{
+    mot : "葛藤",
+    transcription : "葛藤",
+    furigana : "かっとう",
+    traduction : "désaccord, différend"
+  },
+{
+    mot : "向",
+    transcription : "向い",
+    furigana : "むかい",
+    traduction : "opposé; en face; autre côté, de l'autre côté de la rue"
+  },
+{
+    mot : "風",
+    transcription : "風",
+    furigana : "かぜ",
+    traduction : "vent"
+  },
+{
+    mot : "向",
+    transcription : "向かい風",
+    furigana : "むかいかぜ",
+    traduction : "vent de face, vent contraire"
+  },
+{
+    mot : "乗",
+    transcription : "乗っ取る",
+    furigana : "のっとる",
+    traduction : "s'emparer, détourner"
+  },
+{
+    mot : "嵐",
+    transcription : "嵐",
+    furigana : "あらし",
+    traduction : "tempête, ouragan"
+  },
+{
+    mot : "選",
+    transcription : "選ぶ",
+    furigana : "えらぶ",
+    traduction : "choisir, sélectionner"
+  },
+{
+    mot : "勝",
+    transcription : "勝ち残る",
+    furigana : "かちのこる",
+    traduction : "gagner et passer au tour suivant"
+  },
+{
+    mot : "迷",
+    transcription : "迷い",
+    furigana : "まよい",
+    traduction : "illusion, confusion, doute; fait d'être perdu"
+  },
+{
+    mot : "愛情",
+    transcription : "愛情",
+    furigana : "あいじょう",
+    traduction : "tendresse, amour, affection"
+  },
+{
+    mot : "怒",
+    transcription : "怒り",
+    furigana : "いかり",
+    traduction : "énervement, rage, colère"
+  },
+{
+    mot : "秤",
+    transcription : "秤",
+    furigana : "はかり",
+    traduction : "balance"
+  },
+{
+    mot : "度",
+    transcription : "度",
+    furigana : "ど",
+    traduction : "degré; force (d'un alcool); compte la fréquence ou le nombre de fois"
+  },
+{
+    mot : "一",
+    transcription : "一",
+    furigana : "いち",
+    traduction : "un"
+  },
+{
+    mot : "君",
+    transcription : "君",
+    furigana : "きみ",
+    traduction : "toi, tu"
+  },
+{
+    mot : "刃",
+    transcription : "刃",
+    furigana : "やいば",
+    traduction : "lame (d'une arme)"
+  },
+{
+    mot : "何処",
+    transcription : "何処",
+    furigana : "どこ",
+    traduction : "où"
+  },
+{
+    mot : "振",
+    transcription : "振り下ろす",
+    furigana : "ふりおろす",
+    traduction : "balancer vers le bas"
+  },
+{
+    mot : "下",
+    transcription : "下す",
+    furigana : "おろす",
+    traduction : "descendre, baisser, déposer; retirer de l'argent; porter pour la première fois (habits)"
   }
 
 ];
