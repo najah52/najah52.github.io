@@ -732,7 +732,7 @@ var vocabulaire = [
 {
     mot : "突",
     transcription : "突きあかり",
-    furigana : "つきあかり",
+    furigana : "つきあたり",
     traduction : "fin (d'une rue, d'un couloir)"
   },
 {
@@ -753,6 +753,12 @@ var vocabulaire = [
     furigana : "ごはん",
     traduction : "riz cuit; repas"
   },
+{
+    mot: "支度",
+    transcription: "支度",
+    furigana: "したく",
+    traduction: "préparatif"
+},
 {
     mot : "違",
     transcription : "違う",
