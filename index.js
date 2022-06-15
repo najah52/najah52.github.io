@@ -1723,6 +1723,12 @@ var vocabulaire = [
     transcription : "弓矢",
     furigana : "ゆみや",
     traduction : "arc et flèche"
+  },
+  {
+    mot : "子",
+    transcription : "子",
+    furigana : "こ",
+    traduction : "enfant"
   }
 
 ];
