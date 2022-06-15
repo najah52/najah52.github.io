@@ -200,12 +200,6 @@ var vocabulaire = [
     traduction : "signification, sens"
   },
   {
-    mot : "紅蓮",
-    transcription : "紅蓮",
-    furigana : "ぐれん",
-    traduction : "Gurenge"
-  },
-  {
     mot : "華",
     transcription : "華",
     furigana : "はな",
@@ -1202,6 +1196,533 @@ var vocabulaire = [
     transcription : "下す",
     furigana : "おろす",
     traduction : "descendre, baisser, déposer; retirer de l'argent; porter pour la première fois (habits)"
+  },
+{
+    mot : "秒",
+    transcription : "秒",
+    furigana : "びょう",
+    traduction : "seconde"
+  },
+  {
+    mot : "瞬",
+    transcription : "瞬き",
+    furigana : "またたき",
+    traduction : "clignement"
+  },
+  {
+    mot : "取",
+    transcription : "取り残す",
+    furigana : "とりのこす",
+    traduction : "laisser derrière"
+  },
+  {
+    mot : "残",
+    transcription : "残す",
+    furigana : "のこす",
+    traduction : "laisser"
+  },
+  {
+    mot : "羽",
+    transcription : "羽",
+    furigana : "はね",
+    traduction : "plume, aile"
+  },
+  {
+    mot : "羽撃",
+    transcription : "羽撃く",
+    furigana : "はばたく",
+    traduction : "battre des ailes"
+  },
+  {
+    mot : "羽根",
+    transcription : "羽根",
+    furigana : "はね",
+    traduction : "plume"
+  },
+  {
+    mot : "彼",
+    transcription : "彼",
+    furigana : "かれ",
+    traduction : "lui, il"
+  },
+  {
+    mot : "伝",
+    transcription : "伝える",
+    furigana : "つたえる",
+    traduction : "transmettre, informer"
+  },
+  {
+    mot : "焦",
+    transcription : "焦がす",
+    furigana : "こがす",
+    traduction : "brûler, faire brûler, roussir"
+  },
+  {
+    mot : "無数",
+    transcription : "無数",
+    furigana : "むすう",
+    traduction : "innombrable"
+  },
+  {
+    mot : "鳥",
+    transcription : "鳥",
+    furigana : "とり",
+    traduction : "oiseau"
+  },
+  {
+    mot : "灰",
+    transcription : "灰",
+    furigana : "はい",
+    traduction : "cendre"
+  },
+  {
+    mot : "散",
+    transcription : "散らす",
+    furigana : "ちらす",
+    traduction : "éparpiller, disperser, distribuer"
+  },
+  {
+    mot : "散",
+    transcription : "散らし",
+    furigana : "ちらし",
+    traduction : "prospectus, tract, flyer"
+  },
+  {
+    mot : "安",
+    transcription : "安らぎ",
+    furigana : "やすらぎ",
+    traduction : "tranquillité, paix de l'esprit"
+  },
+  {
+    mot : "笑",
+    transcription : "笑う",
+    furigana : "わらう",
+    traduction : "rire, sourire"
+  },
+  {
+    mot : "証",
+    transcription : "証",
+    furigana : "あかし",
+    traduction : "preuve, justification"
+  },
+  {
+    mot : "居",
+    transcription : "居る",
+    furigana : "いる",
+    traduction : "être, exister, se trouver; avoir"
+  },
+  {
+    mot : "骨",
+    transcription : "骨",
+    furigana : "ほね",
+    traduction : "os"
+  },
+  {
+    mot : "砂",
+    transcription : "砂",
+    furigana : "すな",
+    traduction : "sable"
+  },
+  {
+    mot : "化",
+    transcription : "化する",
+    furigana : "かする",
+    traduction : "transformer en"
+  },
+  {
+    mot : "消",
+    transcription : "消える",
+    furigana : "きえる",
+    traduction : "s'effacer, disparaître, s'éteindre"
+  },
+  {
+    mot : "鉄",
+    transcription : "鉄",
+    furigana : "てつ",
+    traduction : "fer"
+  },
+  {
+    mot : "弾",
+    transcription : "弾",
+    furigana : "たま",
+    traduction : "balle, projectile"
+  },
+  {
+    mot : "正義",
+    transcription : "正義",
+    furigana : "せいぎ",
+    traduction : "justice"
+  },
+  {
+    mot : "証明",
+    transcription : "証明",
+    furigana : "しょうめい",
+    traduction : "preuve, constat, attestation, certificat, justification"
+  },
+  {
+    mot : "貫",
+    transcription : "貫く",
+    furigana : "つらぬく",
+    traduction : "traverser, transpercer"
+  },
+  {
+    mot : "英雄",
+    transcription : "英雄",
+    furigana : "えいゆう",
+    traduction : "héros"
+  },
+  {
+    mot : "目",
+    transcription : "目",
+    furigana : "め",
+    traduction : "oeil, yeux"
+  },
+  {
+    mot : "閉",
+    transcription : "閉じる",
+    furigana : "とじる",
+    traduction : "fermer"
+  },
+  {
+    mot : "触",
+    transcription : "触れる",
+    furigana : "ふれる",
+    traduction : "toucher (physiquement, émotionnellement), ressentir, violer (des droits)"
+  },
+  {
+    mot : "同",
+    transcription : "同じ",
+    furigana : "おなじ",
+    traduction : "même, identique, pareil"
+  },
+  {
+    mot : "形",
+    transcription : "形",
+    furigana : "かたち",
+    traduction : "forme, apparence, silhouette"
+  },
+  {
+    mot : "体温",
+    transcription : "体温",
+    furigana : "たいおん",
+    traduction : "température corporelle"
+  },
+  {
+    mot : "悪魔",
+    transcription : "悪魔",
+    furigana : "あくま",
+    traduction : "démon, diable, esprit maléfique"
+  },
+  {
+    mot : "壁",
+    transcription : "壁",
+    furigana : "かべ",
+    traduction : "mur"
+  },
+  {
+    mot : "生",
+    transcription : "生まれる",
+    furigana : "うまれる",
+    traduction : "être né"
+  },
+  {
+    mot : "嘆",
+    transcription : "嘆く",
+    furigana : "なげく",
+    traduction : "se lamenter, soupirer"
+  },
+  {
+    mot : "自由",
+    transcription : "自由",
+    furigana : "じゆう",
+    traduction : "liberté"
+  },
+  {
+    mot : "嫌",
+    transcription : "嫌",
+    furigana : "いや",
+    traduction : "détestable, dégoutant, désagréable, indésirable"
+  },
+  {
+    mot : "愛",
+    transcription : "愛する",
+    furigana : "あいする",
+    traduction : "aimer"
+  },
+  {
+    mot : "犠牲",
+    transcription : "犠牲",
+    furigana : "ぎせい",
+    traduction : "sacrifice"
+  },
+  {
+    mot : "間違",
+    transcription : "間違い",
+    furigana : "まちがい",
+    traduction : "erreur, faute"
+  },
+  {
+    mot : "疑",
+    transcription : "疑う",
+    furigana : "うたがう",
+    traduction : "douter"
+  },
+  {
+    mot : "正",
+    transcription : "正しい",
+    furigana : "ただし",
+    traduction : "exact, vrai, correct"
+  },
+  {
+    mot : "信",
+    transcription : "信じる",
+    furigana : "しんじる",
+    traduction : "croire, faire confiance"
+  },
+  {
+    mot : "進撃",
+    transcription : "進撃",
+    furigana : "しんげき",
+    traduction : "avancée, charge"
+  },
+  {
+    mot : "巨人",
+    transcription : "巨人",
+    furigana : "きょじん",
+    traduction : "géant"
+  },{
+    mot : "前",
+    transcription : "前",
+    furigana : "まえ",
+    traduction : "devant, avant"
+  },
+  {
+    mot : "踏",
+    transcription : "踏む",
+    furigana : "ふむ",
+    traduction : "empiéter sur, fouler, piétiner"
+  },
+  {
+    mot : "花",
+    transcription : "花",
+    furigana : "はな",
+    traduction : "fleur"
+  },
+  {
+    mot : "名前",
+    transcription : "名前",
+    furigana : "なまえ",
+    traduction : "nom"
+  },
+  {
+    mot : "地",
+    transcription : "地",
+    furigana : "ち",
+    traduction : "terre, sol"
+  },
+  {
+    mot : "墜",
+    transcription : "墜ちる",
+    furigana : "おちる",
+    traduction : "tomber, s'écraser"
+  },
+  {
+    mot : "待",
+    transcription : "待ち侘びる",
+    furigana : "まちわびる",
+    traduction : "attendre avec impatience, ne plus pouvoir attendre"
+  },
+  {
+    mot : "祈",
+    transcription : "祈る",
+    furigana : "いのる",
+    traduction : "prier, souhaiter"
+  },
+  {
+    mot : "戦",
+    transcription : "戦う",
+    furigana : "たたかう",
+    traduction : "combattre, se battre, lutter"
+  },
+  {
+    mot : "覚悟",
+    transcription : "覚悟",
+    furigana : "かくご",
+    traduction : "résolution, résignation, préparation, décision"
+  },
+  {
+    mot : "屍",
+    transcription : "屍",
+    furigana : "しかばね",
+    traduction : "cadavre"
+  },
+  {
+    mot : "踏",
+    transcription : "踏み越える",
+    furigana : "ふみこえる",
+    traduction : "piétiner, franchir"
+  },
+  {
+    mot : "意志",
+    transcription : "意志",
+    furigana : "いし",
+    traduction : "volonté"
+  },
+  {
+    mot : "嗤",
+    transcription : "嗤う",
+    furigana : "わらう",
+    traduction : "rire, sourire; ricaner, rire d'un air méprisant"
+  },
+  {
+    mot : "豚",
+    transcription : "豚",
+    furigana : "ぶた",
+    traduction : "porc, cochon"
+  },
+  {
+    mot : "家畜",
+    transcription : "家畜",
+    furigana : "かちく",
+    traduction : "bétail, animaux d'élevage; animal domestique"
+  },
+  {
+    mot : "安寧",
+    transcription : "安寧",
+    furigana : "あんねい",
+    traduction : "paix, tranquilité publique"
+  },
+  {
+    mot : "虚偽",
+    transcription : "虚偽",
+    furigana : "きょぎ",
+    traduction : "faux, mensonger"
+  },
+  {
+    mot : "繁栄",
+    transcription : "繁栄",
+    furigana : "はんえい",
+    traduction : "prospérité"
+  },
+  {
+    mot : "死",
+    transcription : "死ぬ",
+    furigana : "しぬ",
+    traduction : "mourir"
+  },
+  {
+    mot : "餓狼",
+    transcription : "餓狼",
+    furigana : "がろう",
+    traduction : "loup affamé"
+  },
+  {
+    mot : "屈辱",
+    transcription : "屈辱",
+    furigana : "くつじょく",
+    traduction : "humiliation, disgrâce"
+  },
+  {
+    mot : "反撃",
+    transcription : "反撃",
+    furigana : "はんげき",
+    traduction : "contre-attaque, riposte"
+  },
+  {
+    mot : "嚆矢",
+    transcription : "嚆矢",
+    furigana : "こうし",
+    traduction : "flèche sifflante utilisée pour signaler le début de la bataille"
+  },
+  {
+    mot : "城壁",
+    transcription : "城壁",
+    furigana : "じょうへき",
+    traduction : "rempart, muraille"
+  },
+  {
+    mot : "其",
+    transcription : "其",
+    furigana : "そ",
+    traduction : "ce"
+  },
+  {
+    mot : "彼方",
+    transcription : "彼方",
+    furigana : "かなた",
+    traduction : "au loin, là-bas"
+  },
+  {
+    mot : "獲物",
+    transcription : "獲物",
+    furigana : "えもの",
+    traduction : "gibier, proie, butin, trophée"
+  },
+  {
+    mot : "屠",
+    transcription : "屠る",
+    furigana : "ほふる",
+    traduction : "abattre, massacrer, défaire"
+  },
+  {
+    mot : "狩人",
+    transcription : "狩人",
+    furigana : "かりゅうど",
+    traduction : "chasseur"
+  },
+  {
+    mot : "迸",
+    transcription : "迸る",
+    furigana : "ほとばしる",
+    traduction : "jaillir, couler; surgir"
+  },
+  {
+    mot : "殺意",
+    transcription : "殺意",
+    furigana : "さつい",
+    traduction : "intention meurtrière"
+  },
+  {
+    mot : "身",
+    transcription : "身",
+    furigana : "corps, soi",
+    traduction : ""
+  },
+  {
+    mot : "灼",
+    transcription : "灼く",
+    furigana : "やく",
+    traduction : "allumer, brûler, incendier; bronzer"
+  },
+  {
+    mot : "黄昏",
+    transcription : "黄昏",
+    furigana : "たそがれ",
+    traduction : "crépuscule"
+  },
+  {
+    mot : "緋",
+    transcription : "緋",
+    furigana : "ひ",
+    traduction : "rouge"
+  },
+  {
+    mot : "穿",
+    transcription : "穿つ",
+    furigana : "うがつ",
+    traduction : "creuser, visser, percer, trouer"
+  },
+  {
+    mot : "紅蓮",
+    transcription : "紅蓮",
+    furigana : "ぐれん",
+    traduction : "rouge vif; lotus rouge"
+  },
+  {
+    mot : "弓矢",
+    transcription : "弓矢",
+    furigana : "ゆみや",
+    traduction : "arc et flèche"
   }
 
 ];
