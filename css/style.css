@@ -395,6 +395,18 @@ a:visited
   padding: 20px;
 }
 
+.mail
+{
+  font-family: 'AmaticSC';
+  color: #f9909a;
+  font-weight: bold;
+}
+
+.mail:hover
+{
+  text-decoration: underline;
+}
+
 @media (max-width: 1000px) {
 
   .menu
