@@ -13,11 +13,6 @@ a
 }
 
 @font-face {
-  font-family: "Parisienne-Regular";
-  src: url("fonts/Parisienne-Regular.ttf");
-}
-
-@font-face {
   font-family: "KleeOne";
   src: url("fonts/KleeOne-SemiBold.ttf");
 }
