@@ -1813,3 +1813,5 @@ document.querySelectorAll(".subnav h3").forEach((item, i) => {
     }
   }
 });
+
+document.querySelector(".anime").style.textAlign = "center";
