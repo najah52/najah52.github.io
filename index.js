@@ -1815,3 +1815,28 @@ document.querySelectorAll(".subnav h3").forEach((item, i) => {
 });
 
 document.querySelector(".anime").style.textAlign = "center";
+
+// enable Furigana
+var onOff = "on";
+document.querySelector(".bouton").onclick = function(){
+  if(onOff == "on"){
+    onOff = "off";
+    document.querySelector(".bouton span").style.left = "20%";
+    document.querySelector(".bouton span").style.transform = "translate(-20%, -50%)";
+    document.querySelector(".bouton span").style.backgroundColor = "white";
+    document.querySelector(".bouton").style.backgroundColor = "grey";
+    document.querySelectorAll("rt").forEach((item, i) => {
+      item.style.display = "none";
+    });
+  }
+  else if (onOff == "off") {
+    onOff = "on";
+    document.querySelector(".bouton span").style.left = "80%";
+    document.querySelector(".bouton span").style.transform = "translate(-80%, -50%)";
+    document.querySelector(".bouton span").style.backgroundColor = "#996633";
+    document.querySelector(".bouton").style.backgroundColor = "rgba(153, 102, 51, 0.5)";
+    document.querySelectorAll("rt").forEach((item, i) => {
+      item.style.display = "block";
+    });
+  }
+}
