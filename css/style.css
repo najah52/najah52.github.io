@@ -403,6 +403,44 @@ a:visited
   text-decoration: underline;
 }
 
+.bouton
+    {
+      border-radius: 50px;
+      width: 30px;
+      height: 15px;
+      position: relative;
+      background-color: rgba(153, 102, 51, 0.5);
+      cursor: pointer;
+    }
+
+      .bouton span
+      {
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        background-color: black;
+        position: absolute;
+        top: 50%;
+        left: 80%;
+        transform: translate(-80%, -50%);
+        transition-duration: 0.5s;
+        background-color: #996633;
+      }
+
+      .enableFurigana
+      {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+
+      .enableFurigana p
+      {
+        margin: 0;
+        margin-right: 5px;
+        font-family: "AmaticSC";
+      }
+
 @media (max-width: 1000px) {
 
   .menu
