@@ -1729,6 +1729,12 @@ var vocabulaire = [
     transcription : "子",
     furigana : "こ",
     traduction : "enfant"
+  },
+  {
+    mot : "出",
+    transcription : "出る",
+    furigana : "でる",
+    traduction : "sortir"
   }
 
 ];
