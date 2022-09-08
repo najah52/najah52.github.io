@@ -442,6 +442,21 @@ a:visited
         font-family: "AmaticSC";
       }
 
+  .informations
+      {
+        border-radius: 15px;
+        padding: 20px;
+        background-color: inherit;
+	width: 60%;
+	margin: auto;
+	font-size: 1.5em;
+      }
+
+.informations label
+{
+  font-family: "AmaticSC";  
+}
+
 @media (max-width: 1000px) {
 
   .menu
@@ -455,6 +470,12 @@ a:visited
     display: flex;
     align-items: center;
   }
+  
+    .informations
+{
+  width: 90%;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
 
   .menu ul
   {
@@ -487,6 +508,7 @@ a:visited
     margin: auto;
     width: 90%;
     top: 0%;
+    box-shadow: none;
   }
 
   .info
