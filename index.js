@@ -46,7 +46,7 @@ var vocabulaire = [
   {
     mot : "走馬灯",
     transcription : "走馬灯",
-    furigana : "ぞうまとう",
+    furigana : "そうまとう",
     traduction : "le fait de voir sa vie défiler devant soi lorsque l'on est sur le point de mourir"
   },
   {
