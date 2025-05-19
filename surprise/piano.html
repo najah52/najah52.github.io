@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style media="screen">
+
+      html
+      {
+        height: 100%;
+        margin: 0;
+      }
+
+      body
+      {
+        margin: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 50px;
+      }
+
+      .piano
+      {
+          display: flex;
+          position: relative;
+          width: 400px;
+          height: 150px;
+          background: #ddd;
+          justify-content: center;
+          align-items: center;
+          margin: auto;
+      }
+
+      .white-key
+      {
+          width: 50px;
+          height: 150px;
+          border: 1px solid black;
+          background: white;
+          position: relative;
+          display: inline-block;
+      }
+
+      .black-key
+      {
+          width: 30px;
+          height: 100px;
+          background: black;
+          position: absolute;
+          top: 0;
+          z-index: 1;
+          color: white;
+      }
+
+      .white-key, .black-key
+      {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
+
+      .c3 { left: 0px; }
+      .c3s { left: 35px; }
+      .d3 { left: 50px; }
+      .d3s { left: 85px; }
+      .e3 { left: 100px; }
+      .f3 { left: 150px; }
+      .f3s { left: 185px; }
+      .g3 { left: 200px; }
+      .g3s { left: 235px; }
+      .a3 { left: 250px; }
+      .a3s { left: 285px; }
+      .b3 { left: 300px; }
+      .c4 { left: 350px; }
+
+      #note-guide
+      {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .piano button:active
+      {
+        background-color: inherit;
+      }
+
+      #start-button
+      {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .guide
+      {
+        width: 400px;
+        height: 100px;
+        display: grid;
+        grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px;
+      }
+
+      .game
+      {
+        display: none;
+        flex-direction: column;
+        margin-bottom: 50px;
+      }
+
+      tbody
+      {
+        width: 400px;
+        text-align: center;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        overflow: hidden;
+      }
+
+      td
+      {
+        width: 100px;
+      }
+
+      tr
+      {
+        margin: 15px 0px;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div id="note-guide">
+
+    </div>
+
+    <div class="game">
+
+        <table class="guide">
+          <tr>
+            <td></td> <td></td> <td></td> <td>fa</td> <td></td> <td></td> <td></td> <td></td>
+          </tr>
+          <tr>
+            <td></td> <td></td> <td></td> <td></td> <td>sol</td> <td></td> <td></td> <td></td>
+          </tr>
+          <tr>
+            <td></td> <td></td> <td></td> <td>fa</td> <td></td> <td></td> <td></td> <td></td>
+          </tr>
+          <tr>
+            <td></td> <td></td> <td></td> <td></td> <td></td> <td>la</td> <td></td> <td></td>
+          </tr>
+          <tr>
+            <td></td> <td></td> <td></td> <td></td> <td></td> <td width:'100px'>sib</td> <td></td>
+          </tr>
+          <tr>
+            <td></td> <td></td> <td></td> <td></td> <td></td> <td width:'100px'>sib</td> <td></td>
+          </tr>
+          <tr>
+            <td></td> <td>ré</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+          </tr>
+          <tr>
+            <td></td> <td></td> <td>mi</td> <td></td> <td></td> <td></td> <td></td> <td></td>
+          </tr>
+          <tr>
+            <td></td> <td></td> <td></td> <td>fa</td> <td></td> <td></td> <td></td> <td></td>
+          </tr>
+          <tr>
+            <td></td> <td></td> <td></td> <td></td> <td></td> <td>la</td> <td></td> <td></td>
+          </tr>
+          <tr>
+            <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>do'</td>
+          </tr>
+          <tr>
+            <td>do</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+          </tr>
+          <tr>
+            <td>do</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+          </tr>
+          <tr>
+            <td></td> <td></td> <td></td> <td>fa</td> <td></td> <td></td> <td></td> <td></td>
+          </tr>
+          <tr>
+            <td></td> <td></td> <td></td> <td></td> <td>sol</td> <td></td> <td></td> <td></td>
+          </tr>
+          <tr>
+            <td>do</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+          </tr>
+          <tr>
+            <td></td> <td>ré</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+          </tr>
+          <tr>
+            <td>do</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+          </tr>
+          <tr>
+            <td>do</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+          </tr>
+          <tr>
+            <td></td> <td></td> <td>mi</td> <td></td> <td></td> <td></td> <td></td> <td></td>
+          <tr>
+            <td></td> <td></td> <td></td> <td>fa</td> <td></td> <td></td> <td></td> <td></td>
+          </tr>
+          <tr>
+            <td>do</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+          </tr>
+          <tr>
+            <td></td> <td>ré</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+          </tr>
+          <tr>
+            <td>do</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+          </tr>
+          <tr>
+            <td>do</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+          </tr>
+        </table>
+
+      <div class="piano">
+          <button class="key white-key" data-note="do">Do</button>
+          <button class="key white-key" data-note="ré">Ré</button>
+          <button class="key white-key"data-note="mi">Mi</button>
+          <button class="key white-key" data-note="fa">Fa</button>
+          <button class="key white-key" data-note="sol">Sol</button>
+          <button class="key white-key" data-note="la">La</button>
+          <button class="key white-key" data-note="si">Si</button>
+          <button class="key white-key" data-note="do'">Do'</button>
+          <button class="key black-key c3s">Do#</button>
+          <button class="key black-key d3s">Ré#</button>
+          <button class="key black-key f3s">Fa#</button>
+          <button class="key black-key g3s">Sol#</button>
+          <button class="key black-key a3s" data-note="sib">Si♭</button>
+      </div>
+
+    </div>
+
+    <button id="start-button" onclick="start()">START</button>
+
+    <script type="text/javascript">
+
+    const sounds = {};
+    const notes = ["do", "ré", "mi", "fa", "sol", "la", "sib", "do'"];
+
+    const notesSequence = ["do", "do", "ré", "do", "fa", "mi", "do", "do", "ré", "do", "sol", "fa", "do", "do", "do'", "la", "fa", "mi", "ré", "sib", "sib", "la", "fa", "sol", "fa"];
+    let currentNoteIndex = 0;
+
+    function updateGuide(){
+      document.getElementById('note-guide').innerText =  `${notesSequence[currentNoteIndex].replace('.mp3', '')}`;
+    }
+
+    var startButton = document.getElementById('start-button');
+
+    function start(){
+      document.querySelector('.game').style.display = "flex";
+      startButton.style.display = "none";
+      currentNoteIndex = 0;
+      updateGuide();
+    }
+
+    notes.forEach(note => {
+      sounds[note] = new Audio(`sounds/${note}.mp3`); // Précharge chaque son
+    });
+
+var longueur = document.querySelectorAll('tr').length - 1;
+
+    document.querySelectorAll('.key').forEach(button => {
+        button.addEventListener('click', () => {
+          if(button.dataset.note === notesSequence[currentNoteIndex]) {
+            document.querySelectorAll('tr')[longueur].parentNode.removeChild(document.querySelectorAll('tr')[longueur]);
+            longueur--;
+            currentNoteIndex++;
+            sounds[button.dataset.note].currentTime = 0; // Remet à zéro pour éviter le délai
+            sounds[button.dataset.note].play(); // Joue le son instantanément
+            if(currentNoteIndex < notesSequence.length) {
+              updateGuide();
+            } else {
+              document.getElementById('note-guide').innerText = "Joyeux anniversaire ! 🎉";
+            }
+          }
+        });
+    });
+
+/*
+var noteGuide = document.querySelector('.guide');
+
+    for (var y = 0; y < notesSequence.length; y++) {
+      if(notesSequence[y] == "do"){
+        //noteGuide.innerHTML += "<p style='position:absolute; left:50px'>" + notesSequence[i] + "</p>";
+        noteGuide.tr[0].td = notesSequence[y];
+        console.log();
+        noteGuide.appendChild('tr');
+        for (var i = 0; i < 8; i++) {
+          noteGuide.appendChild('td');
+        }
+        document.querySelectorAll('tr')[y].innerHTML = notesSequence[y];
+      }
+      if(notesSequence[y] == "ré"){
+        noteGuide.innerHTML += "<p style='position:absolute; left:100px;'>" + notesSequence[i] + "</p>";
+      }
+      if(notesSequence[y] == "mi"){
+        noteGuide.innerHTML += "<p style='position:absolute; left:150px'>" + notesSequence[i] + "</p>";
+      }
+      if(notesSequence[y] == "fa"){
+        noteGuide.innerHTML += "<p style='position:absolute; left:200px'>" + notesSequence[i] + "</p>";
+      }
+      if(notesSequence[y] == "sol"){
+        noteGuide.innerHTML += "<p style='position:absolute; left:250px'>" + notesSequence[i] + "</p>";
+      }
+      if(notesSequence[y] == "la"){
+        noteGuide.innerHTML += "<p style='position:absolute; left:300px'>" + notesSequence[i] + "</p>";
+      }
+      if(notesSequence[y] == "sib"){
+        noteGuide.innerHTML += "<p style='position:absolute; left:285px'>" + notesSequence[i] + "</p>";
+      }
+      if(notesSequence[y] == "do'"){
+        noteGuide.innerHTML += "<p style='position:absolute; left:350px'>" + notesSequence[i] + "</p>";
+      }
+    }
+*/
+
+    </script>
+
+  </body>
+</html>
